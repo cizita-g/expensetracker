@@ -1,0 +1,33 @@
+// import React from "react";
+// import { useNavigate, useLocation } from "react-router-dom";
+
+// const BudgetTopTabs = () => {
+//   const navigate = useNavigate();
+//   const location = useLocation();
+//   const isInsights = location.pathname === "/view-budgets";
+
+//   return (
+//     <div className="w-full bg-green-500 px-4 py-4 sticky top-0 z-40 shadow-sm rounded-b-2xl">
+//       <div className="flex justify-center gap-2">
+//         <button
+//           onClick={() => navigate("/budget")}
+//           className={`px-6 py-1.5 rounded-full font-semibold transition ${
+//             !isInsights ? "bg-white/20 text-white" : "text-white/80"
+//           }`}
+//         >
+//           PLAN
+//         </button>
+//         <button
+//           onClick={() => navigate("/view-budgets")}
+//           className={`px-6 py-1.5 rounded-full font-semibold transition ${
+//             isInsights ? "bg-white/20 text-white" : "text-white/80"
+//           }`}
+//         >
+//           VIEW PLAN
+//         </button>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default BudgetTopTabs;
